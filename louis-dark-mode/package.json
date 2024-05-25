@@ -1,0 +1,22 @@
+{
+  "name": "louis-dark-mode",
+  "displayName": "Louis_Dark_Mode",
+  "description": "This is my dark mode",
+  "publisher": "louisbatty",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "NewDarkModeByLouis",
+        "uiTheme": "vs-dark",
+        "path": "./themes/NewDarkModeByLouis-color-theme.json"
+      }
+    ]
+  }
+}
